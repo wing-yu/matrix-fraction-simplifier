@@ -12,5 +12,6 @@ Design Goals
 • Avoid `Math.floor()`.
 • Compute the Euclidean remainder only once per iteration.
 • Keep the matrix recurrence visible.
+• Use constant memory so the implementation does not depend on recursion depth.
 
 Suggestions, corrections, mathematical observations, and implementation comparisons are welcome.
